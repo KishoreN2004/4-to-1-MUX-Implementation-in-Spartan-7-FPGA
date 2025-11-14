@@ -57,7 +57,7 @@ A **4:1 multiplexer** selects one of four data inputs (i0..i3) and routes it to 
 ## Verilog Program (`mux4to1.v`)
 
 ```
-module had_mux(
+module mux(
     input [3:0] i,
     input [1:0] s,
     output y
@@ -88,8 +88,6 @@ set_property -dict {PACKAGE_PIN G1 IOSTANDARD LVCMOS33} [get_ports {y}]
 ## FPGA Implementation Output
 
 ![Mux](https://github.com/user-attachments/assets/40586d2d-e669-4d67-9be1-f481b4ff9cf2)
-
----
 
 ## Conclusion
 
