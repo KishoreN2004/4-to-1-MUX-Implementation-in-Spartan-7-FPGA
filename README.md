@@ -3,7 +3,7 @@
 ## Aim
 To design, synthesize, and implement a 4:1 Multiplexer using Verilog HDL on a Spartan-7 FPGA using Xilinx Vivado Design Suite.
 
----
+
 
 ## Apparatus Required
 | S.No | Apparatus / Software | Specification / Description |
@@ -12,7 +12,7 @@ To design, synthesize, and implement a 4:1 Multiplexer using Verilog HDL on a Sp
 | 2 | Software | Xilinx Vivado Design Suite  |
 | 3 | Cable | USB Programming Cable (JTAG/USB-JTAG) |
 
----
+
 
 ## Theory
 A **4:1 multiplexer** selects one of four data inputs (i0..i3) and routes it to a single output y, based on two select lines sel[1:0].
@@ -29,7 +29,7 @@ A **4:1 multiplexer** selects one of four data inputs (i0..i3) and routes it to 
 **Logic Diagram:**
 <img width="463" height="368" alt="image" src="https://github.com/user-attachments/assets/7e2b9a82-5482-4265-8007-4c3761706314" />
 
----
+
 
 ## Procedure (Vivado Design Suite)
 
@@ -53,7 +53,7 @@ A **4:1 multiplexer** selects one of four data inputs (i0..i3) and routes it to 
    - Generate Bitstream.
    - Open *Hardware Manager* → connect to target → Program device with `.bit` file.
    - Verify outputs on LEDs/scope.
----
+
 ## Verilog Program (`mux4to1.v`)
 
 ```
