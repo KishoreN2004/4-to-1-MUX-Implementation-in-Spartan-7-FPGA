@@ -87,7 +87,8 @@ set_property -dict {PACKAGE_PIN G1 IOSTANDARD LVCMOS33} [get_ports {y}]
 ```
 ## FPGA Implementation Output
 
-![Mux](https://github.com/user-attachments/assets/40586d2d-e669-4d67-9be1-f481b4ff9cf2)
+<img width="993" height="688" alt="image" src="https://github.com/user-attachments/assets/ed33f844-0a85-4e31-b5e3-93269c74769c" />
+
 
 ## Conclusion
 
