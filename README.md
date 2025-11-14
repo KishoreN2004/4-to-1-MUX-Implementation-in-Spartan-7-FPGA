@@ -56,7 +56,7 @@ A **4:1 multiplexer** selects one of four data inputs (i0..i3) and routes it to 
 ---
 ## Verilog Program (`mux4to1.v`)
 
-```verilog
+```
 module had_mux(
     input [3:0] i,
     input [1:0] s,
